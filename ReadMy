@@ -1,0 +1,28 @@
+https://github.com/DJWOMS/django_movie
+
+
+Обзор и создание проекта django 3 - урок 2
+https://youtu.be/EY3nn3u-eRQ
+
+Установка python windows - https://clck.ru/KrejF
+Установка python 3.8 linux - https://clck.ru/Kreu7
+Создание виртуального окружения - https://clck.ru/Krewf
+    python -m venv venv (создание вирт окружения)
+
+    Windows:
+    python3 -m venv myvenv
+    python3  myvenv\Scripts\activate
+
+    Linux и OS X:
+    python3  -m venv myvenv
+    source myvenv/bin/activate
+
+Обзор и создание приложения django 3 - урок 3
+https://youtu.be/h5lmW__I7SM?list=PLF-NY6ldwAWrb6nQcPL21XX_-AmivFAYq&t=27
+python manage.py startapp movies
+
+https://youtu.be/tujhSdu5yFg?t=568
+python manage.py makemigrations (не сработало) ИДЕМ
+settings > INSTALLED_APPS > "movies"
+
+
