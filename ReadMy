@@ -22,7 +22,27 @@ https://youtu.be/h5lmW__I7SM?list=PLF-NY6ldwAWrb6nQcPL21XX_-AmivFAYq&t=27
 python manage.py startapp movies
 
 https://youtu.be/tujhSdu5yFg?t=568
-python manage.py makemigrations (не сработало) ИДЕМ
+1. python manage.py makemigrations (не сработало) ИДЕМ
 settings > INSTALLED_APPS > "movies"
+2. python manage.py migrate
 
+Уроки Django 3 -
+ таблицы в базе данных и файлы миграций django - урок 5
+ https://youtu.be/KbYLuK1Lzp8
+
+Ошибка TemplateDoesNotExist в django.
+https://youtu.be/gstSQBISTd0?list=PLF-NY6ldwAWrb6nQcPL21XX_-AmivFAYq
+    Settings > TEMPLATES = [
+    {
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'DIRS': [BASE_DIR / 'templates']
+        Меняем
+        'DIRS': [os.path.join(BASE_DIR / 'templates')]
+
+Уроки Django 3 - создание и вывод фильмов на сайт django - урок 6
+https://youtu.be/WTXPLwrK398?list=PLF-NY6ldwAWrb6nQcPL21XX_-AmivFAYq
+    Регистрируем в admin.py модели
+
+Урок 6 https://youtu.be/WTXPLwrK398?list=PLF-NY6ldwAWrb6nQcPL21XX_-AmivFAYq&t=401
+https://youtu.be/WTXPLwrK398?list=PLF-NY6ldwAWrb6nQcPL21XX_-AmivFAYq&t=510
 
