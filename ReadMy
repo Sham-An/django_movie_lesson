@@ -37,7 +37,7 @@ https://youtu.be/gstSQBISTd0?list=PLF-NY6ldwAWrb6nQcPL21XX_-AmivFAYq
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [BASE_DIR / 'templates']
         Меняем
-        'DIRS': [os.path.join(BASE_DIR / 'templates')]
+        'DIRS': os.path.join(BASE_DIR / 'templates')
 
 Уроки Django 3 - создание и вывод фильмов на сайт django - урок 6
 https://youtu.be/WTXPLwrK398?list=PLF-NY6ldwAWrb6nQcPL21XX_-AmivFAYq
